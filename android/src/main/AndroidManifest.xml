@@ -13,12 +13,12 @@
 
         <activity
             android:name="com.hiennv.flutter_callkit_incoming.CallkitIncomingActivity"
-            android:taskAffinity="com.hiennv.flutter_callkit_incoming.INCOMING_CALL_AFFINITY"
+            android:taskAffinity=""
             android:excludeFromRecents="true"
             android:noHistory="true"
             android:turnScreenOn="true"
             android:configChanges="orientation"
-            android:exported="true"
+            android:exported="false"
             android:theme="@style/CallkitIncomingTheme">
             <intent-filter>
                 <action android:name="${applicationId}.com.hiennv.flutter_callkit_incoming.ACTION_CALL_INCOMING" />
